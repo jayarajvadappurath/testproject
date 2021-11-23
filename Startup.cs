@@ -45,7 +45,7 @@ namespace TestProject
 
             app.UseRouting();
 
-            app.UseAuthorizations(); 
+            app.UseAuthorization(); 
 
             app.UseEndpoints(endpoints =>
             {
