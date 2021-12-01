@@ -41,7 +41,7 @@ namespace TestProject
             }
 
             app.UseHttpsRedirection();
-            app.UseStaticFile();
+            app.UseStaticFiles();
 
             app.UseRouting();
 
