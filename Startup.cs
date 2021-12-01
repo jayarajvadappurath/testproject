@@ -40,7 +40,7 @@ namespace TestProject
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirections();
+            app.UseHttpsRedirection();
             app.UseStaticFiles();
 
             app.UseRouting();
